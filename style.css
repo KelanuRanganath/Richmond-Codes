@@ -1,0 +1,73 @@
+html{
+    font-size: 30px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    height: 100%;
+    color: #8e9cb2;
+}
+/*
+html:hover {
+    color: #3f4a5b;
+}
+*/
+.text {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+}
+body{
+    margin: 40 auto;
+    padding: 10px;
+    border: 10px;
+    width: auto;
+    height: 100%;
+
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    height: 10%;
+    padding: 30px;
+    margin: 0px;
+    border: 20px;
+    letter-spacing: 6px;
+    line-height: 40px;
+}
+/* introduces psuedo elements*/
+.title:hover, .text:hover {
+    color: #3f4a5b;
+}
+.text:hover {
+    margin: 50px;
+}
+/*sets the parallax images*/
+.parallax {
+    /*gets the image you want to use*/
+    background-image: url("file:///C:/Users/Kay/Desktop/Richmond%20Codes/Exported/IMG_9971.png");
+    height: 100vh;
+    /*states that the image should be fixed, this is what gives the parallax effect*/
+    background-attachment: fixed;
+    /*sets where on the page you want your image*/
+    background-position: center;
+    /* sets whether the image should repeat and or tile*/
+    background-repeat: no-repeat;
+    /*sets the size of the image, the second tag sets it to try and cover as much as possible*/
+    background-size: 70%, cover;
+}
+.parallax_bg2 {
+    background-image: url("file:///C:/Users/Kay/Desktop/Richmond%20Codes/Exported/IMG_9977.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%, cover;
+}
+
+.parallax_bg3 {
+    background-image: url("file:///C:/Users/Kay/Desktop/Richmond%20Codes/Exported/IMG_9969.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%, cover;
+}
